@@ -26,7 +26,7 @@ public class MainActivity extends ListActivity {
         setContentView(R.layout.activity_main);
 
 
-        CustomizedList adptr = new CustomizedList(this,names,realations, ImageIds);
+        CustomizedList adptr = new CustomizedList(this,names,realations,ImageIds);
         setListAdapter(adptr);
 
 
